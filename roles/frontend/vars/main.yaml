@@ -1,0 +1,3 @@
+BACKEND_HOST: backend.dev-ops.chat
+APP_LOCATION: /usr/share/nginx/html
+COMPONENT: frontend
