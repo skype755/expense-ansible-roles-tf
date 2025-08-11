@@ -10,6 +10,6 @@
 
 - name: download app code
   ansible.builtin.unarchive:
-    src: "https://expense-builds.s3.us-east-1.amazonaws.com/expense-{{ COMPONENT }}-v3.zip"
+    src: "https://expense-builds.s3.us-east-1.amazonaws.com/expense-{{ COMPONENT }}-v2.zip"
     dest: "{{ APP_LOCATION }}" # this will unzip code here
     remote_src: yes
